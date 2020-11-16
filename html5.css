@@ -1,0 +1,174 @@
+﻿body 
+{
+    background-image: url(image/fon.jpg);
+    font-family: Arial, Sans-Serif;
+}
+header
+{
+    display:block;
+    background-color:#3E3E3E;
+    color:White;
+    text-align:center;    
+}
+
+h5
+{
+    color:Black;
+    border-radius:10px;
+    padding:5px;
+}
+h3
+{
+    color:White;
+    text-align:center;
+}
+
+nav
+{
+    width:25%;
+    float:left;    
+}
+
+nav p
+{
+    color:White;
+    font-weight:bold;
+}
+nav h5
+{
+    color:Black;
+    font-weight:bold;
+    background-color:#3E3E3E;
+    padding:10px;
+    margin:5px; 
+    text-align: center;  
+}
+
+nav form 
+{
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+
+nav form input 
+{
+    all: unset;
+    color: white;
+}
+
+nav a:link, nav a:visited
+{
+    display:block;
+    font-weight:bold;
+    padding:10px;
+    text-decoration:none;
+    margin:5px; 
+    color:White;   
+}
+
+nav a:hover
+{
+    color:Black;
+    background-color:#3E3E3E;    
+}
+
+section
+{
+    display:block;
+    width:50%;
+    float:left;    
+}
+
+
+article header
+{
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+    padding:5px;
+}
+
+article img
+{
+    width: 200px; 
+    height: 250px; 
+    object-fit: cover;
+    text-align: center;
+}
+article
+{
+    border-radius: 50%;
+    text-align: center;
+}
+
+article div a:link, article div a:visited
+{
+    display:block;
+    font-weight:bold;
+    padding:10px;
+    text-decoration:none;
+    margin:5px;  
+    color:White;   
+}
+article div p:hover
+{
+    color:Black;
+    background-color:#3E3E3E; 
+}
+
+article ul
+{
+    display:block;
+    width:25%;
+    float:left;    
+}
+
+aside
+{
+    width:25%;
+    float:left;    
+}
+aside h5
+{
+    background-color:#3E3E3E;
+    padding:10px;
+    margin:5px;   
+}
+aside a:link, aside a:visited
+{
+    display:block;
+    font-weight:bold;
+    padding:10px;
+    text-decoration:none;
+    margin:5px; 
+    color:White;   
+}
+
+aside a:hover
+{
+    color:Black;
+    background-color:#3E3E3E;
+}
+
+li:hover
+{
+    font-weight: bold;
+    color:White;
+    background-color:#3E3E3E;    
+}
+
+footer
+{
+    clear:both;    
+    color:white;
+    background-color:Black;
+    text-align:center;
+    padding:15px;
+}
+
+footer img
+{
+    max-width:100px;
+    min-width:10%; 
+    text-align: center;
+}
