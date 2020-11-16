@@ -3,19 +3,19 @@
     background-image: url(image/fon.jpg);
     font-family: Arial, Sans-Serif;
 }
-header
+ /*Проверка репозитория*/
+/*header
 {
     display:block;
     background-color:#3E3E3E;
     color:White;
     text-align:center;    
-}
+}*/
 
 h5
 {
     color:Black;
-    border-radius:10px;
-    padding:5px;
+
 }
 h3
 {
